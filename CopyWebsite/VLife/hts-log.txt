@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 24 Mar 2023 18:24:08 at https://www.vliferoleplay.fr/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.vliferoleplay.fr/ -O1 "C:\Users\rayan\OneDrive\Bureau\CopyWebsite\VLife" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:30:06	Warning: 	Found for https://www.vliferoleplay.fr/?action=login
+18:30:06	Warning: 	File has moved from https://www.vliferoleplay.fr/?action=login to https://discordapp.com/api/oauth2/authorize?client_id=753410973020323840&redirect_uri=https%3A%2F%2Fwww.vliferoleplay.fr%2Findex.php&response_type=code&scope=identify+guilds+email
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/hero-img.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-1.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-3.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-5.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-6.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-8.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-12.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-4.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-9.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-10.webp
+18:30:06	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-11.webp
+18:30:07	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-13.webp
+18:30:07	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/team/team-15.webp
+18:30:08	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/background.webp
+18:30:08	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/cta-bg.webp
+18:30:08	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/cta-bg2.webp
+18:30:08	Warning: 	File not parsed, looks like binary: https://www.vliferoleplay.fr/assets/img/cta-bg3.webp
+18:30:16	Error: 	"Not Found" (404) at link https://www.vliferoleplay.fr/www.vliferoleplay.fr (from https://www.vliferoleplay.fr/mentions.php)
+18:30:16	Warning: 	Link https://www.vliferoleplay.fr/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+18:30:16	Error: 	"Not Found" (404) at link https://www.vliferoleplay.fr/recrutement/inc/inc/appoint.php (from https://www.vliferoleplay.fr/recrutement/inc/appoint.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 7 seconds : 127 links scanned, 123 files written (104042934 bytes overall) [91976098 bytes received at 250616 bytes/sec], 18981702 bytes transferred using HTTP compression in 53 files, ratio 35%, 4.5 requests per connection
+(2 errors, 20 warnings, 0 messages)

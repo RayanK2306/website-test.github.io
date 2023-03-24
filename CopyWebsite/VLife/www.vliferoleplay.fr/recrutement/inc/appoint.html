@@ -1,0 +1,43 @@
+<script>
+		$('#appoint').submit(function (event) {
+    event.preventDefault();
+    if ($(this)[0].checkValidity() === false) {
+        event.stopPropagation();
+    } else {
+		var form = $(this);
+		var poste = '<br />
+<b>Notice</b>:  Undefined variable: poste in <b>/var/www/vliferoleplay.fr/recrutement/inc/appoint.php</b> on line <b>87</b><br />
+';
+		var discord = "<br />
+<b>Notice</b>:  Undefined variable: discord in <b>/var/www/vliferoleplay.fr/recrutement/inc/appoint.php</b> on line <b>88</b><br />
+";
+		var id = "<br />
+<b>Notice</b>:  Undefined variable: id in <b>/var/www/vliferoleplay.fr/recrutement/inc/appoint.php</b> on line <b>89</b><br />
+";
+		var url = "inc/appoint.html";
+		var hour = 0;
+		if ($(".hour")[0]){
+		var hour = 1;
+		}
+		$.ajax({
+			   type: "POST",
+			   url: url,
+			   data: form.serialize()+ "&poste="+poste + "&discord="+discord + "&id="+id+ "&hour="+hour, // serializes the form's elements.// serializes the form's elements.
+				cache: false,
+				beforeSend: function(){
+					$('#fetched_data').empty();
+					$('#loading-image').show();
+				},
+				complete: function(){
+					$('#loading-image').hide();
+				},
+			   success: function(data)
+			   {
+				   //alert(data); // show response from the php script.
+				   $('#fetched_data').html(data);
+			   }
+			 });
+    }
+    $('#appoint').addClass('was-validated');
+});
+</script>
